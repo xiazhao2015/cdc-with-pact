@@ -55,7 +55,9 @@
         <version>${pact.version}</version>
         <configuration>
           <!-- pact_broker is the service name in docker-compose -->
-          <pactBrokerUrl>http://pact_broker</pactBrokerUrl>
+          <pactBrokerUrl>https://motorola.pact.dius.com.au</pactBrokerUrl>
+          <pactBrokerUsername>nishantk@motorola.com</pactBrokerUsername>
+          <pactBrokerPassword>Welcome@2019</pactBrokerPassword>
           <projectVersion>${pact.consumer.version}</projectVersion>
           <tags>
             <tag>${pact.tag}</tag>
